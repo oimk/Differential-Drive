@@ -1,6 +1,6 @@
-package org.sciborgs1155.lib;
+package lib;
 
-import static org.sciborgs1155.lib.UnitTestingUtil.runToCompletion;
+import static lib.UnitTestingUtil.runToCompletion;
 
 import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.Commands;

@@ -1,16 +1,16 @@
-package org.sciborgs1155.lib;
+package lib;
 
 import static edu.wpi.first.wpilibj2.command.Commands.runOnce;
+import static lib.Assertion.eAssert;
+import static lib.Assertion.tAssert;
+import static lib.Test.runUnitTest;
+import static lib.Test.toCommand;
+import static lib.UnitTestingUtil.reset;
+import static lib.UnitTestingUtil.runToCompletion;
+import static lib.UnitTestingUtil.setupTests;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.sciborgs1155.lib.Assertion.eAssert;
-import static org.sciborgs1155.lib.Assertion.tAssert;
-import static org.sciborgs1155.lib.Test.runUnitTest;
-import static org.sciborgs1155.lib.Test.toCommand;
-import static org.sciborgs1155.lib.UnitTestingUtil.reset;
-import static org.sciborgs1155.lib.UnitTestingUtil.runToCompletion;
-import static org.sciborgs1155.lib.UnitTestingUtil.setupTests;
 
 import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.Timer;
@@ -18,15 +18,15 @@ import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.Commands;
 import java.util.Set;
 import java.util.stream.Collectors;
+import lib.Assertion.EqualityAssertion;
+import lib.Assertion.TruthAssertion;
+import lib.FaultLogger.Fault;
+import lib.FaultLogger.FaultType;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.function.Executable;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
-import org.sciborgs1155.lib.Assertion.EqualityAssertion;
-import org.sciborgs1155.lib.Assertion.TruthAssertion;
-import org.sciborgs1155.lib.FaultLogger.Fault;
-import org.sciborgs1155.lib.FaultLogger.FaultType;
 
 public class TestingUtilTest {
   int x;

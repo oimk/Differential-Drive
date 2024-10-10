@@ -1,7 +1,7 @@
-package org.sciborgs1155.robot;
+package robot;
 
 import static edu.wpi.first.units.Units.Seconds;
-import static org.sciborgs1155.robot.Constants.PERIOD;
+import static robot.Constants.PERIOD;
 
 import edu.wpi.first.wpilibj.DataLogManager;
 import edu.wpi.first.wpilibj.DriverStation;
@@ -13,12 +13,12 @@ import edu.wpi.first.wpilibj2.command.Command;
 import edu.wpi.first.wpilibj2.command.CommandScheduler;
 import edu.wpi.first.wpilibj2.command.Commands;
 import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
+import lib.CommandRobot;
+import lib.FaultLogger;
 import monologue.Logged;
 import monologue.Monologue;
 import org.littletonrobotics.urcl.URCL;
-import org.sciborgs1155.lib.CommandRobot;
-import org.sciborgs1155.lib.FaultLogger;
-import org.sciborgs1155.robot.Ports.OI;
+import robot.Ports.OI;
 
 /**
  * This class is where the bulk of the robot should be declared. Since Command-based is a

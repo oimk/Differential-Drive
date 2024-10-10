@@ -1,4 +1,4 @@
-package org.sciborgs1155.lib;
+package lib;
 
 import com.revrobotics.CANSparkBase;
 import com.revrobotics.CANSparkLowLevel.PeriodicFrame;

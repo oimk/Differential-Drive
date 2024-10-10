@@ -1,11 +1,11 @@
-package org.sciborgs1155.lib;
+package lib;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.function.BooleanSupplier;
 import java.util.function.DoubleSupplier;
-import org.sciborgs1155.lib.FaultLogger.FaultType;
+import lib.FaultLogger.FaultType;
 
 public sealed interface Assertion {
   public void apply(boolean unitTest);

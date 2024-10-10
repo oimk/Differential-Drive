@@ -1,4 +1,4 @@
-package org.sciborgs1155.robot;
+package robot;
 
 import edu.wpi.first.wpilibj.RobotBase;
 

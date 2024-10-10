@@ -1,18 +1,18 @@
-package org.sciborgs1155.lib;
+package lib;
 
+import static lib.FaultLogger.*;
+import static lib.UnitTestingUtil.setupTests;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.sciborgs1155.lib.FaultLogger.*;
-import static org.sciborgs1155.lib.UnitTestingUtil.setupTests;
 
 import com.revrobotics.CANSparkBase.IdleMode;
 import com.revrobotics.CANSparkFlex;
 import com.revrobotics.CANSparkLowLevel.MotorType;
 import com.revrobotics.RelativeEncoder;
 import java.util.Set;
+import lib.SparkUtils.Data;
+import lib.SparkUtils.Sensor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.sciborgs1155.lib.SparkUtils.Data;
-import org.sciborgs1155.lib.SparkUtils.Sensor;
 
 public class SparkUtilsTest {
 

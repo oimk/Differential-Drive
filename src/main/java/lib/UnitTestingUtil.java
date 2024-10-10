@@ -1,4 +1,4 @@
-package org.sciborgs1155.lib;
+package lib;
 
 import static edu.wpi.first.units.Units.Seconds;
 

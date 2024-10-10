@@ -1,4 +1,4 @@
-package org.sciborgs1155.lib;
+package lib;
 
 import com.ctre.phoenix6.StatusSignal;
 import com.ctre.phoenix6.hardware.TalonFX;

@@ -1,4 +1,4 @@
-package org.sciborgs1155.lib;
+package lib;
 
 import com.ctre.phoenix6.Orchestra;
 import com.ctre.phoenix6.configs.AudioConfigs;

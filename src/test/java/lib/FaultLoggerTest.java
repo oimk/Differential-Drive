@@ -1,14 +1,14 @@
-package org.sciborgs1155.lib;
+package lib;
 
+import static lib.UnitTestingUtil.setupTests;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.sciborgs1155.lib.UnitTestingUtil.setupTests;
 
 import edu.wpi.first.networktables.NetworkTable;
 import edu.wpi.first.networktables.NetworkTableInstance;
+import lib.FaultLogger.FaultType;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.sciborgs1155.lib.FaultLogger.FaultType;
 
 public class FaultLoggerTest {
 

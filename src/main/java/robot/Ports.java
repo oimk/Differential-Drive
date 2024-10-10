@@ -1,4 +1,4 @@
-package org.sciborgs1155.robot;
+package robot;
 
 public final class Ports {
   // TODO: Add and change all ports as needed.
