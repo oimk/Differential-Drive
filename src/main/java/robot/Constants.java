@@ -11,7 +11,6 @@ import edu.wpi.first.units.Time;
  *
  * <p>It is advised to statically import this class (or one of its inner classes) wherever the
  * constants are needed, to reduce verbosity.
- *
  */
 public class Constants {
   public static final Measure<Time> PERIOD = Seconds.of(0.02); // roborio tickrate (s)

@@ -70,8 +70,7 @@ public class Robot extends CommandRobot implements Logged {
   }
 
   /** Configures trigger -> command bindings. */
-  private void configureBindings() {
-  }
+  private void configureBindings() {}
 
   /**
    * Command factory to make both controllers rumble.
@@ -93,7 +92,6 @@ public class Robot extends CommandRobot implements Logged {
               operator.getHID().setRumble(rumbleType, 0);
             });
   }
-
 
   @Override
   public void close() {
