@@ -5,7 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class InputStreamTest {
-
   private double two() {
     return 2.0;
   }
