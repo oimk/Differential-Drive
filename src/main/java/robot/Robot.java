@@ -3,8 +3,6 @@ package robot;
 import static edu.wpi.first.units.Units.Seconds;
 import static robot.Constants.PERIOD;
 
-import org.littletonrobotics.urcl.URCL;
-
 import edu.wpi.first.wpilibj.DataLogManager;
 import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.GenericHID.RumbleType;
@@ -19,8 +17,9 @@ import lib.CommandRobot;
 import lib.FaultLogger;
 import monologue.Logged;
 import monologue.Monologue;
-import robot.Ports.OI;
+import org.littletonrobotics.urcl.URCL;
 import robot.Drive.Drive;
+import robot.Ports.OI;
 
 /**
  * This class is where the bulk of the robot should be declared. Since Command-based is a
@@ -37,6 +36,7 @@ public class Robot extends CommandRobot implements Logged {
 
   // SUBSYSTEMS
   Drive drive = new Drive();
+
   // COMMANDS
 
   /** The robot contains subsystems, OI devices, and commands. */
